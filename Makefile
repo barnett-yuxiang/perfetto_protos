@@ -4,4 +4,4 @@ endef
 
 gen_protos:
 	$(call gen_data,protos/perfetto/trace/perfetto_trace.proto)
-	$(call gen_data,protos/perfetto/trace_processor/trace_porcessor.proto)
+	$(call gen_data,protos/perfetto/trace_processor/trace_processor.proto)
