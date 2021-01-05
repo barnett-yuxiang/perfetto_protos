@@ -20,6 +20,8 @@ import "protos/perfetto/trace/trace_packet.proto";
 
 package perfetto.protos;
 
+option go_package = "github.com/barnett-yuxiang/perfetto_protos/gen/protos/perfetto/trace";
+
 message Trace {
   repeated TracePacket packet = 1;
 

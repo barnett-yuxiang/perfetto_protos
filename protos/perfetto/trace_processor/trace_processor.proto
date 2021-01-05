@@ -18,6 +18,8 @@ syntax = "proto2";
 
 package perfetto.protos;
 
+option go_package = "github.com/barnett-yuxiang/perfetto_protos/gen/protos/perfetto/trace_processor";
+
 import "protos/perfetto/common/descriptor.proto";
 
 // This file defines the schema for {,un}marshalling arguments and return values
